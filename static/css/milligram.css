@@ -213,7 +213,6 @@ input[type='week'],
 input:not([type]),
 textarea,
 select {
-  -webkit-appearance: none;
   background-color: transparent;
   border: 0.1rem solid #d1d1d1;
   border-radius: .4rem;
@@ -299,6 +298,8 @@ input[type='radio'] {
   flex-direction: column;
   padding: 0;
   width: 100%;
+  text-align: center;
+  justify-content:center;
 }
 
 .row.row-no-padding {
@@ -385,9 +386,48 @@ input[type='radio'] {
   margin-left: 90%;
 }
 
+.logo{
+  background-color: transparent;
+}
+.tablas_grillas{
+  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+table{
+  border: 1px solid black;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10%;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: beige;
+  opacity: 0.7;
+}
+
+th {
+  border: 1px black;
+  text-align: center;
+  justify-content:center;
+  color: black;
+  width: 8%;
+}
+tr{
+  border: 1px  black;
+    text-align: center;
+    justify-content: center;
+    width: 1%;
+}
+td{
+  text-align: center;
+  justify-content: center;
+  width: 8%;
+}
+
 .row .column.column-10 {
   flex: 0 0 10%;
-  max-width: 10%;
+  max-width: 10%; 
 }
 
 .row .column.column-20 {
@@ -427,7 +467,10 @@ input[type='radio'] {
 
 .row .column.column-75 {
   flex: 0 0 75%;
-  max-width: 75%;
+  width: 75%;
+  text-align: center;
+  justify-content: center;
+
 }
 
 .row .column.column-80 {
@@ -465,8 +508,10 @@ input[type='radio'] {
 }
 
 a {
-  color: #9b4dca;
+  color: #fefefe;
   text-decoration: none;
+  text-align: center;
+  justify-content: center;
 }
 
 a:focus, a:hover {
@@ -632,4 +677,86 @@ img {
   float: right;
 }
 
+
+a{ 
+  background-color:#6ef398;
+  border-radius: 30%;
+  padding: 6px;
+  margin-right: 5%;
+  
+}
+.a_feriado_puente{
+  background-color: #6ef398;
+}
+.a_Feriado_inamovible{
+  background-color: #f3b96e;
+}
+.a_Feriado_trasladable {
+  background-color: #90f451;
+}
+.feriado_puente{
+  background-color: #6ef398;
+  color: black;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border-radius: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.Feriado_inamovible{
+  background-color: #f3b96e;
+    color: black;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Feriado_trasladable{
+  background-color: #90f451;
+    color: black;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.año_pasado{
+  color: rgb(254, 253, 253);
+  padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 1px solid #606c76 ;
+    border-radius: 30%;
+}
+.año_presente{
+  color:rgb(255, 253, 253);
+  background-color: rgb(9, 93, 249);
+  padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  margin-left: 1px;
+  margin-right: 1px;
+  border: 1px solid #606c76;
+  border-radius: 30%;
+}
+.año_siguiente{
+  color:rgb(242, 233, 233);
+  padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border: 1px solid #606c76;
+    border-radius: 30%;
+}
 /*# sourceMappingURL=milligram.css.map */
+
