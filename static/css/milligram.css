@@ -213,7 +213,6 @@ input[type='week'],
 input:not([type]),
 textarea,
 select {
-  appearance: none;
   background-color: transparent;
   border: 0.1rem solid #d1d1d1;
   border-radius: .4rem;
@@ -386,6 +385,7 @@ input[type='radio'] {
 .row .column.column-offset-90 {
   margin-left: 90%;
 }
+
 .logo{
   background-color: transparent;
 }
@@ -433,7 +433,6 @@ td{
 .row .column.column-20 {
   flex: 0 0 20%;
   max-width: 20%;
-  
 }
 
 .row .column.column-25 {
@@ -471,6 +470,7 @@ td{
   width: 75%;
   text-align: center;
   justify-content: center;
+
 }
 
 .row .column.column-80 {
@@ -677,6 +677,7 @@ img {
   float: right;
 }
 
+
 a{ 
   background-color:#6ef398;
   border-radius: 30%;
@@ -758,3 +759,4 @@ a{
     border-radius: 30%;
 }
 /*# sourceMappingURL=milligram.css.map */
+
