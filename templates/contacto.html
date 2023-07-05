@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto_4</title>
+
+    <link rel="stylesheet" href="../static/css/milligram.css">
+    <link rel="stylesheet" href="../static/css/milligram.min.css">
+    <style>
+        /* Estilos adicionales personalizados */
+        body {
+            display: inline;
+            width: max-content;
+            height: max-content;
+            background-image: url(img/background_image.jpg);
+        }
+        h1{
+            color: aliceblue;
+        }
+        .row{
+            width: 100%;
+            text-align: center;
+            justify-content:center;
+        }
+        .back_form{
+            background-color: beige;
+            opacity: 0.7;
+            color: black;
+            border-radius: 5%;
+            padding: 3%;
+        }
+
+    </style>
+	
+</head>
+<body class="button-clear">
+    <section class="container">
+        <article class="row">
+            <h1>Calendario 2023</h1>
+        </article>
+
+        <article class="row">
+            <div class="button">
+                <a class="button" href="index.html">calendario</a>
+            </div>
+            <div class="button">
+                <a class="button" href="contacto.html">contacto</a>
+            </div>
+            <div class="button">
+                <a class="button" href="lista_feriados.html">feriados</a>
+            </div>
+        </article>
+	<h3>Contacto</h3>
+        <form>
+            <fieldset>
+                <label for="nameField">Nombre (requerido) </label>
+                <input type="text" placeholder="Victorina Mendez" id="nameField">
+                <label for="ageRangeField">Tu correo electrónico (requerido) </label>
+                <input type="text" placeholder="victorina.mendez@gmail.com" id="emailField">
+                <label for="ageRangeField">Asunto </label>
+                <input type="text" placeholder="Motivo del mail" id="emailSubjectField">
+                <label for="commentField">Comment</label>
+                <textarea placeholder="Hola, soy Victoria Mendez …" id="commentField"></textarea>
+                <input class="button-primary" type="submit" value="Send">
+            </fieldset>
+        </form>
+</section>
+</body>
+</html>
