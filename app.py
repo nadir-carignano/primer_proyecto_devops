@@ -38,6 +38,6 @@ def indexx():
 def contacto():
     return render_template("contacto.html")
 
-@app.route("/lista_feriados.html")
+@app.route("/listaFeriados.html")
 def lista_feriados():
-    return render_template("lista_feriados.html")
+    return render_template("listaFeriados.html")
