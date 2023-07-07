@@ -1,6 +1,6 @@
 #Primer Proyecto devops  
 
-*¡Somos el **Grupo 10**!*  
+*¡Somos el **Equipo 10**!*  
 
 El proyecto consiste en crear un calendario del año 2023,cuyas funciones permiten visualizar los dias restantes para las vacaciones de invierno,navidad y año nuevo.  
 
